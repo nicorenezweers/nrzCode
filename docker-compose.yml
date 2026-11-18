@@ -1,0 +1,20 @@
+# Beispiel: docker compose up -d → http://localhost:8410 (Vorschau der Agenten auf :8411)
+# Das erste Konto wird Administrator. In den Einstellungen nrzGit (Adresse + Token) verbinden.
+services:
+  nrzcode:
+    build: .
+    image: nrzcode:latest
+    restart: unless-stopped
+    ports:
+      - "8410:8410"
+      - "8411:8411"
+    environment:
+      # Vorgabe für die nrzGit-Adresse (kann in den Einstellungen geändert werden)
+      NRZCODE_NRZGIT_URL: ""
+    volumes:
+      - nrzcode-data:/data
+      # Docker des Hosts: Agenten können Images bauen und in die Registry von nrzGit schieben
+      - /var/run/docker.sock:/var/run/docker.sock
+
+volumes:
+  nrzcode-data:

@@ -1,0 +1,5 @@
+# Immer LF im Arbeitsordner – auch unter Windows. Die Migrationen (migrations/*.sql) werden ins
+# Programm eingebettet und über ihre Prüfsumme wiedererkannt: mit CRLF gebaut hält die App jede
+# schon angewandte Migration für verändert und startet nicht ("migration 1 was previously applied
+# but has been modified").
+* text=auto eol=lf

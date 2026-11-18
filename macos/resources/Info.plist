@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>nrzCode</string>
+  <key>CFBundleDisplayName</key>
+  <string>nrzCode</string>
+  <key>CFBundleIdentifier</key>
+  <string>ch.nrzstudio.nrzcode</string>
+  <key>CFBundleExecutable</key>
+  <string>nrzcode-macos</string>
+  <key>CFBundleIconFile</key>
+  <string>nrzCode</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0.0</string>
+  <key>CFBundleVersion</key>
+  <string>__VERSION__</string>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>de</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>11.0</string>
+  <key>LSApplicationCategoryType</key>
+  <string>public.app-category.developer-tools</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+  <key>NSRequiresAquaSystemAppearance</key>
+  <false/>
+  <!-- Server auf 127.0.0.1, Vorschau der Agenten und nrzGit über HTTP -->
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+  </dict>
+  <!-- Texte der Dialoge von macOS; die Agenten laufen als Kindprozesse und erben die Rechte der App -->
+  <key>NSDesktopFolderUsageDescription</key>
+  <string>nrzCode und seine Agenten lesen und schreiben Projekte und Dateien auf dem Schreibtisch.</string>
+  <key>NSDocumentsFolderUsageDescription</key>
+  <string>nrzCode und seine Agenten lesen und schreiben Projekte und Dateien im Ordner Dokumente.</string>
+  <key>NSDownloadsFolderUsageDescription</key>
+  <string>nrzCode speichert Downloads und Agenten lesen heruntergeladene Dateien.</string>
+  <key>NSRemovableVolumesUsageDescription</key>
+  <string>nrzCode und seine Agenten greifen auf Dateien auf externen Laufwerken zu.</string>
+  <key>NSNetworkVolumesUsageDescription</key>
+  <string>nrzCode und seine Agenten greifen auf Dateien auf Netzlaufwerken zu.</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Dieter, die Sprachsteuerung von nrzCode, hört zu, wenn du das Mikrofon einschaltest. Die Sprache wird lokal auf diesem Mac erkannt.</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>Dieter, die Sprachsteuerung von nrzCode, wandelt deine Sätze in Text um.</string>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>nrzCode verbindet sich mit nrzGit und den Vorschauen der Agenten in deinem Netzwerk.</string>
+  <key>NSAppleEventsUsageDescription</key>
+  <string>Agenten in nrzCode steuern andere Apps über AppleScript, z. B. System Events oder den Finder.</string>
+  <key>NSHumanReadableCopyright</key>
+  <string>AGPL-3.0-or-later · nrzStudio</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+target
+ui/target
+ui/dist
+data
+.git
+.github
+*.db
+*.db-*
+.DS_Store

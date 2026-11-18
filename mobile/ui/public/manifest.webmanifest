@@ -1,0 +1,10 @@
+{
+  "name": "nrzCode Mobile",
+  "short_name": "nrzCode",
+  "description": "Chats der Coding-Agenten unterwegs im Blick behalten, Limits sehen und weiter anweisen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1c1e",
+  "theme_color": "#1c1c1e",
+  "icons": [{ "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }]
+}
