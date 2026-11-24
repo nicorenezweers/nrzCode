@@ -1,6 +1,6 @@
 [package]
 name = "nrzcode-mobile"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2024"
 description = "nrzCodeMobile – nrzCode für unterwegs: Server auf dem Umbrel, mit dem sich nrzCode am PC verbindet"
 license = "AGPL-3.0-or-later"

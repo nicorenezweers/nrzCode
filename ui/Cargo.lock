@@ -1950,7 +1950,7 @@ dependencies = [
 
 [[package]]
 name = "nrzcode-shared"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "serde",
  "serde_json",
@@ -1958,7 +1958,7 @@ dependencies = [
 
 [[package]]
 name = "nrzcode-ui"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "dioxus",
  "futures-channel",

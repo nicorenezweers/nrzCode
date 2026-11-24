@@ -1,6 +1,6 @@
 [package]
 name = "nrzcode-shared"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 description = "nrzCode – JSON-Formen der API, gemeinsam für Server und Oberfläche"
 license = "AGPL-3.0-or-later"

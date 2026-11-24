@@ -1908,7 +1908,7 @@ dependencies = [
 
 [[package]]
 name = "nrzcode-mobile-ui"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "dioxus",
  "gloo-net",
@@ -1924,7 +1924,7 @@ dependencies = [
 
 [[package]]
 name = "nrzcode-shared"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "serde",
  "serde_json",
